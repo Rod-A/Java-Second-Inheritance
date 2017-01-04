@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="JPEG" always-add-relationships="true" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.mycompany.myproduct.myapp.PersonBase" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/PersonBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="185" width="159" x="66" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.mycompany.myproduct.myapp.Person" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/Person.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="159" x="66" y="632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.mycompany.myproduct.myapp.Professor" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/Professor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="159" x="66" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.mycompany.myproduct.myapp.Student" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/Student.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="257" width="197" x="286" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.mycompany.myproduct.myapp.Studying" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/Studying.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="159" x="348" y="632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.mycompany.myproduct.myapp.Main" project="first" 
+    file="/first/src/com/mycompany/myproduct/myapp/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="159" x="286" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="9">    
+    <bendpoint x="35" y="335"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="13">    
+    <bendpoint x="513" y="335"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="15">    
+    <bendpoint x="255" y="335"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
